@@ -1,0 +1,24 @@
+{
+  "name": "gitbook-plugin-tbobook",
+  "version": "0.0.1",
+  "description": "tbobook theme",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "theme",
+    "tbobook"
+  ],
+  "author": "Barret Lee <barret.china@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
