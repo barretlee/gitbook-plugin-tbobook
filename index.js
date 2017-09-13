@@ -62,7 +62,7 @@ module.exports = {
             var level = page.level.split('.')[0];
             var len = page.level.split('.').length;
             var modName, demo = '', partName;
-            if (level == 4 && len >= 3) {
+            if (level == 4 && len == 3) {
                 modName = page.title.split(' ')[0].toLowerCase();
                 demo = '<h2 id="Demo 示例">Demo 示例</h2><iframe style="border:1px solid #CCC;width:375px;height:667px;" src=\'http://groups.alidemo.cn/WeexOpen/TBOC/examples/public/?type=demo&demo=' + modName + '\'></iframe>';
             }

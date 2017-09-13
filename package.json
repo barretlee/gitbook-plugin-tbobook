@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-tbobook",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "tbobook theme",
   "engines": {
     "gitbook": ">1.x.x"
